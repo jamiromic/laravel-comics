@@ -1,4 +1,4 @@
-.container {
+.container_header {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -30,7 +30,10 @@
     align-items: center;
     height: 100%;
 
-    &:hover {
+    
+    
+    &:hover,
+    &.active {
         
         color:  #0282F9;
         border-bottom: 5px solid #0282F9;

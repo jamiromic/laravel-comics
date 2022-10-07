@@ -14,12 +14,10 @@
   @include('partials.header')
   
   {{-- Main Content --}}
-  <main>
-    @yield('content')
-  </main>
+  {{-- @include('partials.main') --}}
 
   {{-- Footer --}}
-  @include('partials.footer')
+  {{-- @include('partials.footer') --}}
   
 </body>
 </html>
