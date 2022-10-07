@@ -1,0 +1,106 @@
+.footer_top {
+    background-color: #0282F9;
+    margin: 0 auto;
+    padding: 3rem 0;
+    position: relative;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+
+}
+
+.service_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    text-transform: uppercase;
+    color: white;
+    gap: 1rem;
+    font-size: 0.75rem;
+}
+
+
+img {
+    height: 100%;
+}
+
+.footer_center {
+    background-image: url(../assets/footer-bg.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 28rem;
+    height: 360px;
+}
+
+.footer_lists {
+    display: flex;
+    padding-top: 1.5rem;
+}
+
+.footer_picture_dc {
+    margin-top: -100px;
+    margin-bottom: -100px;
+}
+
+.col {
+    color: #959595;
+    flex-grow: 1;
+    flex-basis: 0;
+    width: 130px;
+    font-size: 0.75rem;
+    
+    h4 {
+        padding: 1rem 0;
+        color: white;
+        font-size: 1rem;
+    }
+}
+
+li {
+    padding-bottom: 5px;
+}
+
+.footer_bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 38rem;
+    background-color: #303030;
+    flex-wrap: wrap;
+    position: relative;
+
+    button {
+        height: 45px;
+        align-self: center;
+        border: 2px solid #0282F9;
+        background-color: #303030;
+        color: white;
+        padding: 0 0.75rem;
+    }
+
+    .list_icons{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+
+        h4 {
+            padding-right: 0.75rem;
+            color: #0282F9;
+            
+        }
+
+        li {
+            width: 2.5rem;
+            height: 2.5rem;
+        }
+
+    
+    }
+}

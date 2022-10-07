@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1600px;
+    height: 100px;
+}
+
+.logo {
+    width: 4rem;
+
+}
+
+.main_list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.75rem;
+    height: 100%;
+}
+
+.list_item {
+
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+    &:hover {
+        
+        color:  #0282F9;
+        border-bottom: 5px solid #0282F9;
+    }
+
+}
