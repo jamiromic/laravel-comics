@@ -1,14 +1,14 @@
 <?php
 
 return [
-    'Characters',
-    'Comics',
-    'Movies',
-    'Tv',
-    'Games',
-    'Collectibles',
-    'Videos',
-    'Fans',
-    'News',
-    'Shop'
+    'characters',
+    'comics',
+    'movies',
+    'tv',
+    'games',
+    'collectibles',
+    'videos',
+    'fans',
+    'news',
+    'shop'
 ];

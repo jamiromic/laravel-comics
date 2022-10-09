@@ -1,3 +1,26 @@
+.hero {
+    background-image: url(../img/jumbotron.jpg);
+    background-size: cover;
+    height: 400px;
+    position: relative;
+
+    
+    button {
+        width: fit-content;
+        background-color:  #0282F9;
+        color: white;
+        font-weight: 700;
+        border: none;
+        font-size: 1.65rem;
+        padding: 0.85rem 1rem;
+        position: absolute;
+        bottom: -22px;
+        left: 330px;
+    }
+}
+
+
+
 .container_main {
     background-color: #1C1C1C;
     display: flex;
@@ -32,3 +55,43 @@
 
     
 }
+
+.menu_options {
+    background-color: #0282F9;
+    margin: 0 auto;
+    padding: 3.5rem 0;
+    position: relative;
+
+    .services {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 5rem;
+        max-width: 1300px;
+        margin: 0 auto;
+
+        .service_item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 40px;
+            text-transform: uppercase;
+            color: white;
+            gap: 1rem;
+            font-size: 0.85rem;
+        }
+
+        .img_options {
+            height: 50px;
+            width: 42px;
+        }
+    
+    }
+    
+}
+
+
+
+
+

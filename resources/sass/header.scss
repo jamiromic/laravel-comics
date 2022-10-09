@@ -28,7 +28,7 @@
 }
 
 
-.container_header {
+.container_header_bottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -118,26 +118,4 @@
         font-size: 0.75rem;
     }
 
-}
-
-
-.hero {
-    background-image: url(../img/jumbotron.jpg);
-    background-size: cover;
-    height: 400px;
-    position: relative;
-
-    
-    button {
-        width: fit-content;
-        background-color:  #0282F9;
-        color: white;
-        font-weight: 700;
-        border: none;
-        font-size: 1.65rem;
-        padding: 0.85rem 1rem;
-        position: absolute;
-        bottom: -22px;
-        left: 330px;
-    }
 }

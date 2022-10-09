@@ -9,14 +9,16 @@
         </li>
     </ul>
 </div>
-<div class="container_header">
+<div class="container_header_bottom">
     <div class="logo">
-        <img src="{{ asset('img/dc-logo.png') }}" alt="Logo Digital Comics">
+        <a href="./">
+            <img src="{{ asset('img/dc-logo.png') }}" alt="Logo Digital Comics">
+        </a>
     </div>
     <ul class="main_list">
             @foreach ($items as $item)
                 <li class="list_links">  
-                    <a href="#" class="{{$loop->first ? 'active link' : 'link'}}">{{$item}}</a>
+                    <a href="{{$item}}" class="{{$loop->first ? 'active link' : 'link'}}">{{$item}}</a>
                     @if($loop->last)
                     <i class="fa-solid fa-caret-down"></i>
                      @endif
@@ -29,7 +31,4 @@
         </div>
         <i class="fa-solid fa-magnifying-glass"></i>
     </div>
-</div>
-<div class="hero">
-    <button>CURRENT SERIES</button>
 </div>

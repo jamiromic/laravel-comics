@@ -1,16 +1,6 @@
 <div>
     <div class="footer_top">
-        <div class="services">
-                @foreach ($options as $option)
-                <div class="service_item">
-                    <img class="img_options" src={{$option['img']}} alt={{$option['name']}}>
-                    <a href="#">{{ $option['name'] }}</a>
-                </div>
-                @endforeach
-        </div>
-    </div>
-    <div class="footer_center">
-        <div class="wrapper_footer_center">
+        <div class="wrapper_footer_top">
             <div class="wrapper_photo_text">
                 <div class="footer_lists">
                     <div class="col">

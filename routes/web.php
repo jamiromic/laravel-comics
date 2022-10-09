@@ -32,8 +32,17 @@ Route::get('/', function () {
 
 
 Route::get('/comics', function () {
+    $data = [
+        'items' => config('header_data'),
+        'options' => config('data_options'),
+        'socials' => config('data_social'),
+        'links1' => config('footer_link1'),
+        'links2' => config('footer_link2'),
+        'links3' => config('footer_link3'),
+        'links4' => config('footer_link4'),
+        'cards' => config('store_comics')
 
-    
+    ];
 
-    return view('comics');
+    return view('comics',$data);
 });
