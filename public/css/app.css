@@ -229,7 +229,7 @@ a {
   margin: 0 auto;
   display: flex;
   align-items: center;
-  gap: 6rem;
+  gap: 8rem;
 }
 .footer_top .wrapper_footer_top .wrapper_photo_text {
   display: flex;
