@@ -1,6 +1,13 @@
-<div class="card">
-    <div class="picture">
-        <img :src="src" :alt="titolo">
-   </div>
-    <h4>{{ titolo }}</h4>
-</div>
+    @foreach ($cards as $card)
+    <div class="card">
+        <div class="picture">
+            <img class="thumbnail" src={{ $card['thumb'] }} alt={{$card['title']}}>
+       </div>
+        <h4>{{ $card['series'] }}</h4>
+    </div>
+    @endforeach
+    
+    
+    
+    
+

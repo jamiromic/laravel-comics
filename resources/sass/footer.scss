@@ -1,8 +1,9 @@
 .footer_top {
     background-color: #0282F9;
     margin: 0 auto;
-    padding: 3rem 0;
+    padding: 3.5rem 0;
     position: relative;
+    
 }
 
 .services {
@@ -10,7 +11,9 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 4rem;
+    gap: 5rem;
+    max-width: 1300px;
+    margin: 0 auto;
 
 }
 
@@ -18,89 +21,146 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50px;
+    height: 40px;
     text-transform: uppercase;
     color: white;
     gap: 1rem;
-    font-size: 0.75rem;
+    font-size: 0.85rem;
 }
 
-
-img {
-    height: 100%;
+.img_options {
+    height: 50px;
+    width: 42px;
 }
 
 .footer_center {
-    background-image: url(../assets/footer-bg.jpg);
+    background-image: url(../img/footer-bg.jpg);
     background-size: cover;
     display: flex;
-    justify-content: space-around;
-    padding: 0 28rem;
-    height: 360px;
-}
+    height: 400px;
 
-.footer_lists {
-    display: flex;
-    padding-top: 1.5rem;
-}
 
-.footer_picture_dc {
-    margin-top: -100px;
-    margin-bottom: -100px;
-}
-
-.col {
-    color: #959595;
-    flex-grow: 1;
-    flex-basis: 0;
-    width: 130px;
-    font-size: 0.75rem;
-    
-    h4 {
-        padding: 1rem 0;
-        color: white;
-        font-size: 1rem;
-    }
-}
-
-li {
-    padding-bottom: 5px;
-}
-
-.footer_bottom {
-    display: flex;
-    justify-content: space-between;
-    padding: 2rem 38rem;
-    background-color: #303030;
-    flex-wrap: wrap;
-    position: relative;
-
-    button {
-        height: 45px;
-        align-self: center;
-        border: 2px solid #0282F9;
-        background-color: #303030;
-        color: white;
-        padding: 0 0.75rem;
-    }
-
-    .list_icons{
+    .wrapper_footer_center {
+        max-width: 1300px;
+        margin: 0 auto;
         display: flex;
         align-items: center;
-        flex-wrap: wrap;
-        gap: 1rem;
+        gap: 6rem;
+        
+        
+        
 
-        h4 {
-            padding-right: 0.75rem;
-            color: #0282F9;
+        .wrapper_photo_text {
             
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            gap: 1rem;
+    
+    
+            .footer_lists {
+                display: flex;
+                
+                .col {
+                    color: #959595;
+                    width: 140px;
+                    font-size: 0.75rem;
+                    
+                    h4 {
+                        padding: 1rem 0;
+                        color: white;
+                        font-size: 1.25rem;
+                        font-weight: 500;
+                    }
+    
+                    li {
+                        padding-bottom: 5px;
+                        font-size: 0.75rem;
+                    }
+                }
+
+
+            
+            }
+
+            .copyright {
+                color: #959595;
+                font-size: 0.75rem;
+
+                a {
+                    color: #0282F9;
+
+                }
+
+
+            }
+
+
         }
 
-        li {
-            width: 2.5rem;
-            height: 2.5rem;
-        }
+        .footer_picture_dc {
 
+            height: 140%;
+            aspect-ratio: 1 / 1;
+            
+
+        }
+    
     
     }
+    
+}
+
+
+
+.footer_bottom {
+    background-color: #303030;
+    position: relative;
+    padding: 2rem 0rem;
+    
+    
+
+    .wrapper_footer_bottom {
+        max-width: 1250px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+        
+
+        button {
+            height: 45px;
+            align-self: center;
+            border: 2px solid #0282F9;
+            background-color: #303030;
+            color: white;
+            padding: 0 0.75rem;
+            font-size: 1rem;
+        }
+    
+        .list_icons{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+    
+            h4 {
+                padding-right: 0.75rem;
+                color: #0282F9;
+                font-size: 1.25rem;
+                
+            }
+    
+            li {
+                width: 2.5rem;
+                height: 2.5rem;
+            }
+    
+        
+        }
+
+    }
+
+    
 }

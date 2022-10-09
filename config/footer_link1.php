@@ -4,11 +4,9 @@ return [
     'Characters',
     'Comics',
     'Movies',
-    'Tv',
+    'TV',
     'Games',
-    'Collectibles',
     'Videos',
-    'Fans',
-    'News',
-    'Shop'
+    'News'
+    
 ];

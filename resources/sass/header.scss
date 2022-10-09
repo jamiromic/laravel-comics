@@ -1,15 +1,45 @@
+.container_header_top {
+    background-color:  #0282F9;
+    color: whitesmoke;
+    
+
+    .wrapper_header_top {
+        margin: 0 auto;
+        max-width: 1300px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        font-size: 0.70rem;
+        font-weight: 600;
+        gap: 4rem;
+        padding: 0.15rem 0;
+
+    }
+
+    .wrapper_header_top :last-child {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.18rem 0;
+
+    }
+
+
+}
+
+
 .container_header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     margin: 0 auto;
-    max-width: 1600px;
-    height: 100px;
+    max-width: 1300px;
+    height: 120px;
 }
 
 .logo {
-    width: 4rem;
+    width: 5rem;
 
 }
 
@@ -17,18 +47,31 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 3rem;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 0.75rem;
-    height: 100%;
+    font-size: 0.90rem;
+    color: #303030;
+    
+
+    li:last-child {
+        display: flex;
+        align-items: center;
+        gap: 0.35rem;
+    }
+
+    .fa-caret-down {
+        color:  #0282F9;
+    }
+
+    
 }
 
-.list_item {
+.link {
 
     display: flex;
     align-items: center;
-    height: 100%;
+    height: 120px;
 
     
     
@@ -36,7 +79,65 @@
     &.active {
         
         color:  #0282F9;
-        border-bottom: 5px solid #0282F9;
+        border-bottom: 8px solid #0282F9;
+        margin-bottom: -8px;
     }
 
+
+
+
+}
+
+.wrapper_searchbar {
+    
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #0282F9;
+
+
+    .wrapper_input {
+    width: 120px;
+
+        input {
+            width: 100%;
+            border: none;
+            
+        }
+
+        input::placeholder {
+            text-align: right;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: #303030;
+        
+        }
+
+    }
+
+    .fa-magnifying-glass {
+        font-size: 0.75rem;
+    }
+
+}
+
+
+.hero {
+    background-image: url(../img/jumbotron.jpg);
+    background-size: cover;
+    height: 400px;
+    position: relative;
+
+    
+    button {
+        width: fit-content;
+        background-color:  #0282F9;
+        color: white;
+        font-weight: 700;
+        border: none;
+        font-size: 1.65rem;
+        padding: 0.85rem 1rem;
+        position: absolute;
+        bottom: -22px;
+        left: 330px;
+    }
 }

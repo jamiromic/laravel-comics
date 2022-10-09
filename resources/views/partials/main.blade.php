@@ -1,11 +1,6 @@
-<div class="container">
-    <div class="hero">
-        <button>CURRENT SERIES</button>
-    </div>
+<div class="container_main">
     <div class="wrapper">
-        <ComicCard v-for="(card,i) in dataCard" :key="i" :src="card.thumb" :titolo="card.series" />
-    </div>
+        @include('partials.comic_card')
+   </div>
     <button>LOAD MORE</button>
-    
-
 </div>
