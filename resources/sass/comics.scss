@@ -126,5 +126,76 @@
 
 
 
+.container_color {
+    background-color: #0282F9;
+    height: 100px;
+}
+
+
+
+.container_show {
+    display: flex;
+    max-width: 1300px;
+    margin: 0 auto;
+    position: relative;
+
+
+    .container_information {
+        width: 70%;
+
+
+        .wrapper_price_availability {
+            display: flex;
+            align-items: center;
+            background-color: #55BA59;
+
+
+            .price_availability {
+                width: 70%;
+                display: flex;
+                justify-content: space-between;
+                padding: 1rem;
+                color: #BAFD9C;
+
+                .price {
+                    
+                    span {
+                        color: white;
+                    }
+                }
+
+                
+
+            }
+
+
+            .check_availability {
+                color: white;
+            }
+
+            .fa-caret-down {
+                color: white;
+            }
+        }
+
+        .description {
+            color: #55555A;
+            font-weight: 500;
+            padding: 1rem 2rem;
+        }
+    
+    
+    
+    }
+
+
+
+}
+
+
+
+
+
+
 
 

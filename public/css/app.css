@@ -217,6 +217,47 @@ a {
   width: 42px;
 }
 
+.container_color {
+  background-color: #0282F9;
+  height: 100px;
+}
+
+.container_show {
+  display: flex;
+  max-width: 1300px;
+  margin: 0 auto;
+  position: relative;
+}
+.container_show .container_information {
+  width: 70%;
+}
+.container_show .container_information .wrapper_price_availability {
+  display: flex;
+  align-items: center;
+  background-color: #55BA59;
+}
+.container_show .container_information .wrapper_price_availability .price_availability {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  color: #BAFD9C;
+}
+.container_show .container_information .wrapper_price_availability .price_availability .price span {
+  color: white;
+}
+.container_show .container_information .wrapper_price_availability .check_availability {
+  color: white;
+}
+.container_show .container_information .wrapper_price_availability .fa-caret-down {
+  color: white;
+}
+.container_show .container_information .description {
+  color: #55555A;
+  font-weight: 500;
+  padding: 1rem 2rem;
+}
+
 .footer_top {
   background-image: url(../img/footer-bg.jpg);
   background-size: cover;
