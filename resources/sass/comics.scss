@@ -182,7 +182,7 @@
 
     .container_information {
         width: 70%;
-        padding: 1rem 4.27rem;
+        padding: 1rem 2.5rem;
 
         h1 {
             color: #003F5E;
@@ -269,6 +269,132 @@
 
 }
 
+
+.container_details {
+    
+    background-color: #F6F6F6;
+    position: relative;
+
+    .wrapper_details {
+        display: flex;
+        max-width: 1050px;
+        margin: 0 auto;
+        gap: 2.5rem;
+        padding-bottom: 6rem;
+
+        .title {
+
+            color: #003F5E;
+            border-bottom: 1px solid #D8D8D8;
+            padding: 1.75rem 0;
+            font-size: 1.25rem;
+        }
+
+        .details {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            
+            
+
+            
+    
+            .list {
+                display: flex;
+                font-size: 0.75rem;
+                border-bottom: 1px solid #D8D8D8;
+                padding: 0.5rem 0;
+                gap: 7rem;
+    
+                .title_list {   
+                    color: #003F5E;
+                    width: 50%;
+                    
+                    
+                }
+
+                .content_list {
+                    color: #00A9DF;
+
+                }
+            }
+
+            .list_series {
+                color: black;
+                font-size: 0.75rem;
+                
+                li {
+                    border-bottom: 1px solid #D8D8D8;
+                    padding: 0.5rem 0;
+                }
+
+                .action_comics {
+                    color: #00A9DF;
+                }
+            }
+
+            
+        }
+    
+
+
+    }
+
+    .container_footer_option {
+        border: 1px solid #D8D8D8;
+
+        .footer_options_menu {
+            display: flex;
+            max-width: 1100px;
+            margin: 0 auto;
+            justify-content: center;
+            
+    
+            .options_menu {
+                display: flex;
+                gap: 2rem;
+                
+
+                &:last-child {
+                    border-right: 1px solid #D8D8D8;
+
+                }
+    
+                .service_item {
+                    display: flex;
+                    justify-content: space-between;
+                    color: #D8D8D8;
+                    border-left: 1px solid #D8D8D8;
+                    width: 25%;
+                    gap: 4rem;
+                    padding: 0.5rem;
+
+    
+                    .title_service {
+                        text-transform: uppercase;
+                        font-size: 0.70rem;
+                    }
+    
+                    .figure_service {
+                        width: 2rem;
+                        color: #D8D8D8;
+    
+                        
+    
+                    }
+                }
+            }
+        }
+
+
+    }
+
+
+    
+
+
+    
+}
 
 
 

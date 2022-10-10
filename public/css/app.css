@@ -255,7 +255,7 @@ a {
 }
 .container_show .container_information {
   width: 70%;
-  padding: 1rem 4.27rem;
+  padding: 1rem 2.5rem;
 }
 .container_show .container_information h1 {
   color: #003F5E;
@@ -309,6 +309,87 @@ a {
 }
 .container_show .advertisement h4 {
   padding-bottom: 0.35rem;
+}
+
+.container_details {
+  background-color: #F6F6F6;
+  position: relative;
+}
+.container_details .wrapper_details {
+  display: flex;
+  max-width: 1050px;
+  margin: 0 auto;
+  gap: 2.5rem;
+  padding-bottom: 6rem;
+}
+.container_details .wrapper_details .title {
+  color: #003F5E;
+  border-bottom: 1px solid #D8D8D8;
+  padding: 1.75rem 0;
+  font-size: 1.25rem;
+}
+.container_details .wrapper_details .details {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.container_details .wrapper_details .details .list {
+  display: flex;
+  font-size: 0.75rem;
+  border-bottom: 1px solid #D8D8D8;
+  padding: 0.5rem 0;
+  gap: 7rem;
+}
+.container_details .wrapper_details .details .list .title_list {
+  color: #003F5E;
+  width: 50%;
+}
+.container_details .wrapper_details .details .list .content_list {
+  color: #00A9DF;
+}
+.container_details .wrapper_details .details .list_series {
+  color: black;
+  font-size: 0.75rem;
+}
+.container_details .wrapper_details .details .list_series li {
+  border-bottom: 1px solid #D8D8D8;
+  padding: 0.5rem 0;
+}
+.container_details .wrapper_details .details .list_series .action_comics {
+  color: #00A9DF;
+}
+.container_details .container_footer_option {
+  border: 1px solid #D8D8D8;
+}
+.container_details .container_footer_option .footer_options_menu {
+  display: flex;
+  max-width: 1100px;
+  margin: 0 auto;
+  justify-content: center;
+}
+.container_details .container_footer_option .footer_options_menu .options_menu {
+  display: flex;
+  gap: 2rem;
+}
+.container_details .container_footer_option .footer_options_menu .options_menu:last-child {
+  border-right: 1px solid #D8D8D8;
+}
+.container_details .container_footer_option .footer_options_menu .options_menu .service_item {
+  display: flex;
+  justify-content: space-between;
+  color: #D8D8D8;
+  border-left: 1px solid #D8D8D8;
+  width: 25%;
+  gap: 4rem;
+  padding: 0.5rem;
+}
+.container_details .container_footer_option .footer_options_menu .options_menu .service_item .title_service {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+.container_details .container_footer_option .footer_options_menu .options_menu .service_item .figure_service {
+  width: 2rem;
+  color: #D8D8D8;
 }
 
 .footer_top {

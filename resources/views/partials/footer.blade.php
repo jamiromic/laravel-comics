@@ -60,7 +60,7 @@
                 <h4>FOLLOW US</h4>
                 @foreach ($socials as $social)
                 <li>
-                    <img src={{$social['img']}} alt={{$social['name']}}>
+                    <img src={{asset($social['img'])}} alt={{$social['name']}}>
                 </li>
                 @endforeach
             </ul>

@@ -54,12 +54,13 @@ Route::get('/comics/{id}', function($id)  {
 
     $data = [
         'items' => config('header_data'),
-        'options' => config('data_options'),
+        'options' => config('data_options_show'),
         'socials' => config('data_social'),
         'links1' => config('footer_link1'),
         'links2' => config('footer_link2'),
         'links3' => config('footer_link3'),
         'links4' => config('footer_link4'),
+
         'card' => $card
         
         
