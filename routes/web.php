@@ -23,12 +23,11 @@ Route::get('/', function () {
         'links2' => config('footer_link2'),
         'links3' => config('footer_link3'),
         'links4' => config('footer_link4'),
-        'cards' => config('store_comics')
 
     ];
 
-    return view('home',$data);
-});
+    return view('home.index',$data);
+})->name('home');
 
 
 Route::get('/comics', function () {
@@ -44,5 +43,19 @@ Route::get('/comics', function () {
 
     ];
 
-    return view('comics',$data);
-});
+    return view('comics.index',$data);
+})->name('comics');
+
+
+Route::get('/comics/{id}', function($id)  {
+
+    $data = [
+        'cards' => config('store_comics')
+
+    ];
+
+    return view('comics.show',$data);
+})->name('comics');
+
+
+
