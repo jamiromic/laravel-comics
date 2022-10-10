@@ -229,10 +229,29 @@ a {
   position: relative;
   padding: 3.5rem 1rem;
 }
-.container_show .figure {
+.container_show .figure_box {
   position: absolute;
   top: -310px;
   left: 80px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 0.75rem;
+  border: 1px solid white;
+}
+.container_show .figure_box .figure_box1 {
+  position: absolute;
+  left: 0;
+  background-color: #00A9D9;
+  padding: 0.15rem 0.25rem;
+}
+.container_show .figure_box .figure_box2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #00A9D9;
+  width: 100%;
+  text-align: center;
+  padding: 0.15rem 0;
 }
 .container_show .container_information {
   width: 70%;

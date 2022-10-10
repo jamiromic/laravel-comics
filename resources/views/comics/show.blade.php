@@ -6,7 +6,11 @@
 <div class="hero"></div>
 <div class="container_color"></div>
 <div class="container_show">
-    <img class="figure" src="{{$card['thumb']}}" alt="{{$card['title']}}">
+    <div class="figure_box">
+        <img class="figure" src="{{$card['thumb']}}" alt="{{$card['title']}}">
+        <span class="figure_box1">comic book</span>
+        <span class="figure_box2">view gallery</span>
+    </div> 
     <div class="container_information">
         <h1>{{ $card['title'] }}</h1>
         <div class="wrapper_price_availability">
