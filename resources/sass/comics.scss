@@ -128,34 +128,53 @@
 
 .container_color {
     background-color: #0282F9;
-    height: 100px;
+    height: 80px;
 }
 
 
 
 .container_show {
     display: flex;
-    max-width: 1300px;
+    max-width: 1155px;
     margin: 0 auto;
     position: relative;
+    padding: 3.5rem 1rem;
+
+    .figure {
+        position: absolute;
+        top: -310px;
+        left: 80px;
+    }
 
 
     .container_information {
         width: 70%;
+        padding: 1rem 4.27rem;
+
+        h1 {
+            color: #003F5E;
+            text-transform: uppercase;
+            font-size: 1.75rem;
+            padding-bottom: 1rem;
+        }
 
 
         .wrapper_price_availability {
             display: flex;
             align-items: center;
             background-color: #55BA59;
+            border-bottom: 0.25px solid black;
+            height: 50px;
 
 
             .price_availability {
-                width: 70%;
                 display: flex;
                 justify-content: space-between;
-                padding: 1rem;
                 color: #BAFD9C;
+                flex-basis: 0;
+                flex-grow: 1;
+                font-size: 0.85rem;
+                padding: 0 1rem;
 
                 .price {
                     
@@ -171,6 +190,14 @@
 
             .check_availability {
                 color: white;
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+                padding: 0 2rem;
+                border-left: 0.25px solid black;
+                height: 100%;
+                align-self: center;
+    
             }
 
             .fa-caret-down {
@@ -181,13 +208,30 @@
         .description {
             color: #55555A;
             font-weight: 500;
-            padding: 1rem 2rem;
+            padding: 1rem 0;
+            font-size: 0.90rem;
+            line-height: 1.5rem;
         }
+
+        
     
     
     
     }
+    
 
+    .advertisement {
+        text-align: end;
+        color: #555555;
+        font-size: 0.85rem;
+        
+        h4 {
+            padding-bottom: 0.35rem;
+        }
+
+
+       
+    }
 
 
 }

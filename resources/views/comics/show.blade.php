@@ -6,6 +6,7 @@
 <div class="hero"></div>
 <div class="container_color"></div>
 <div class="container_show">
+    <img class="figure" src="{{$card['thumb']}}" alt="{{$card['title']}}">
     <div class="container_information">
         <h1>{{ $card['title'] }}</h1>
         <div class="wrapper_price_availability">
@@ -15,8 +16,9 @@
             </div>
             <span class="check_availability">
                 Check Availability
+                <i class="fa-solid fa-caret-down"></i>
             </span>
-            <i class="fa-solid fa-caret-down"></i>
+            
 
         </div>
         <div class="description">
@@ -28,5 +30,6 @@
         <img src="../img/adv.jpg" alt="">
     </div>
 </div>
+
 
 @endsection

@@ -219,35 +219,59 @@ a {
 
 .container_color {
   background-color: #0282F9;
-  height: 100px;
+  height: 80px;
 }
 
 .container_show {
   display: flex;
-  max-width: 1300px;
+  max-width: 1155px;
   margin: 0 auto;
   position: relative;
+  padding: 3.5rem 1rem;
+}
+.container_show .figure {
+  position: absolute;
+  top: -310px;
+  left: 80px;
 }
 .container_show .container_information {
   width: 70%;
+  padding: 1rem 4.27rem;
+}
+.container_show .container_information h1 {
+  color: #003F5E;
+  text-transform: uppercase;
+  font-size: 1.75rem;
+  padding-bottom: 1rem;
 }
 .container_show .container_information .wrapper_price_availability {
   display: flex;
   align-items: center;
   background-color: #55BA59;
+  border-bottom: 0.25px solid black;
+  height: 50px;
 }
 .container_show .container_information .wrapper_price_availability .price_availability {
-  width: 70%;
   display: flex;
   justify-content: space-between;
-  padding: 1rem;
   color: #BAFD9C;
+  flex-basis: 0;
+  flex-grow: 1;
+  font-size: 0.85rem;
+  padding: 0 1rem;
 }
 .container_show .container_information .wrapper_price_availability .price_availability .price span {
   color: white;
 }
 .container_show .container_information .wrapper_price_availability .check_availability {
   color: white;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0 2rem;
+  border-left: 0.25px solid black;
+  height: 100%;
+  align-self: center;
 }
 .container_show .container_information .wrapper_price_availability .fa-caret-down {
   color: white;
@@ -255,7 +279,17 @@ a {
 .container_show .container_information .description {
   color: #55555A;
   font-weight: 500;
-  padding: 1rem 2rem;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+.container_show .advertisement {
+  text-align: end;
+  color: #555555;
+  font-size: 0.85rem;
+}
+.container_show .advertisement h4 {
+  padding-bottom: 0.35rem;
 }
 
 .footer_top {
